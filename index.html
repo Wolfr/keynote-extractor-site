@@ -8,6 +8,11 @@
   <title>Keynote Extractor</title>
   <link rel="stylesheet" href="screen.css" type="text/css">
 
+  <script>
+    function notReleased() {
+      alert('We haven\'t released Keynote Extractor yet. Send an e-mail to jr@mono.company to get in the beta!');
+    }
+  </script>
 </head>
 <body>
 
@@ -17,13 +22,18 @@
         
         <div class="feature">
           <div class="feature-screenshot">
-            <img src="slice1@2x.png" alt="Slice1@2x">
+            <img src="slice1@2x.png" alt="Keynote Extractor Interface">
           </div>
           <div class="feature-copy">
             <h1>A better HTML export for Apple Keynote®.</h1>
             <p>We thought the default HTML export in Keynote didn't fit our needs. Extract your slides alongside your notes using our super easy drag 'n drop application for macOS.</p>
-            <p class="mas-download-btn"><a href="#"><img src="mas.svg" alt="Download on the Mac App Store"></a></p>
+            <p class="mas-download-btn">
+              <a href="#" onclick="notReleased()">
+                <img src="mas.svg" alt="Download on the Mac App Store">
+              </a>
+            </p>
           </div>
+
         </div>
 
       </div>
@@ -37,7 +47,7 @@
 
         <div class="feature">
           <div class="feature-screenshot">
-            <img src="slice2@2x.png" width="1032" height="732" alt="Slice2@2x">
+            <img src="slice2@2x.png" alt="Keynote Extractor Workflow">
           </div>
           <div class="feature-copy">
             <h2>Clutter free.</h2>
@@ -54,7 +64,7 @@
         
         <div class="feature">
           <div class="feature-screenshot">
-            <img src="slice3@2x.png" width="932" height="792" alt="Slice3@2x">
+            <img src="slice3@2x.png" alt="Keynote Extractor Mobile Output">
           </div>
           <div class="feature-copy">
             <h2>Made for mobile</h2>
@@ -68,7 +78,11 @@
     <section class="section section-alt-2 ta-center">
       <div class="inner">
         <p>Get your copy now for <strike>$10</strike> $4.99. Limited time off to celebrate the launch.</p>
-        <p class="mas-download-btn"><a href="#"><img src="mas.svg" alt="Download on the Mac App Store"></a></p>
+        <p class="mas-download-btn">
+          <a href="#" onclick="notReleased()">
+            <img src="mas.svg" alt="Download on the Mac App Store">
+          </a>
+        </p>
       </div>
     </section>
   
@@ -78,7 +92,7 @@
     <div class="inner">
       <p>Keynote Extractor is a Mono product.</p>
       <p class="ta-right">
-        <img src="slice4@2x.png" width="103" alt="Slice4@2x">
+        <img src="slice4@2x.png" width="103" alt="Mono">
       </p>
     </div>
   </footer>

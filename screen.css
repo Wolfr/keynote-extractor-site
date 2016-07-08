@@ -1,7 +1,12 @@
+/* Apparently you need to add this to fix Flexbox in Firefox */
+* {
+  min-height: 0;
+  min-width: 0;
+}
+
 /* ==========================================================================
   Keynote extractor website
    ========================================================================== */
-
 
 html, body {
   margin: 0;
