@@ -1,0 +1,40 @@
+.c-superscript {
+    position: relative;
+    top: -.35rem;
+    @include text-dimensions($ms-3,1);
+}
+
+.c-small {
+    color: palette(color-neutral,x-dark);
+    @include text-dimensions($ms-1,1);
+}
+
+.c-lead {
+    font-weight: 600;
+    @include text-dimensions($ms1,1.2);
+}
+
+.c-light {
+    font-weight: 300;
+    max-width: 18em;
+}
+
+.c-link-app {
+    display: block;
+    width: 135px;
+    height: 40px;
+    background-image: url('../img/app-store.svg');
+    @include hide-text;
+}
+
+.c-thin {
+    font-weight: 100;
+}
+
+.c-strikethrough {
+    font-weight: 300;
+}
+
+.c-measure {
+    max-width: 27em;
+}

@@ -1,0 +1,28 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Jekyll configuration
+sass:
+  sass_dir: _scss
+  style: compressed
+gems:
+  - octopress-autoprefixer
+
+# Site settings
+title: Keynote Extractor
+email: keynote-extractor@mono.company
+description: >
+  A better HTML export for Apple Keynote®
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://keynote-extractor.com" # the base hostname & protocol for your site
+
+# Blog configuration
+permalink: /:categories/:title/
+markdown: kramdown
+
+# Exclude
+exclude: [".sass-cache", config", "log", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "package.json", ".editorconfig", ".bowerrc", "bower.json", ".gitignore", "install.sh"]
