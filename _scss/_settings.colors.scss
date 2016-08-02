@@ -10,14 +10,14 @@
 }
 
 // Base colors
-$color-neutral              : #aaa !default;
+$color-neutral              : #AAA;
 
-$color-alpha                : #25658D !default;
-$color-beta                 : #2ECC40 !default;
+$color-alpha                : #25658D;
+$color-beta                 : #2ECC40;
 
-$color-error                : #FF4136 !default;
-$color-success              : #2ECC40 !default;
-$color-notice               : #FF851B !default;
+$color-error                : #FF4136;
+$color-success              : #2ECC40;
+$color-notice               : #FF851B;
 
 // Palettes
 $palettes: (
@@ -56,4 +56,4 @@ $palettes: (
         base                : $color-notice,
         dark                : hsl(hue($color-notice),100,35),
     )
-) !default;
+);

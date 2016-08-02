@@ -1,9 +1,12 @@
 .c-row {
-    @include padding-lr(3,3);
+    @include padding-lr(1.5,1.5);
+    @include mq(bp2) {
+        @include padding-lr(3,3);
+    }
 }
 
 .c-row--padding {
-    @include padding-tb(3,3);
+    @include padding-tb(2,2);
 }
 
 .c-row--padding-top {

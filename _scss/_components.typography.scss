@@ -13,29 +13,12 @@
     @include text-dimensions($ms1,1.2);
 }
 
-.c-light {
-    font-weight: 300;
-    max-width: 18em;
-}
-
 .c-link-app {
     display: block;
-    width: 135px;
-    height: 40px;
+    width: 169px;
+    height: 50px;
     background-image: url('../img/app-store.svg');
     @include hide-text;
-}
-
-.c-thin {
-    font-weight: 100;
-}
-
-.c-medium {
-    font-weight: 600;
-}
-
-.c-strikethrough {
-    font-weight: 300;
 }
 
 .c-measure {
