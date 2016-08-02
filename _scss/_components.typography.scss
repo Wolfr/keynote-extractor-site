@@ -10,7 +10,6 @@
 }
 
 .c-lead {
-    font-weight: 600;
     @include text-dimensions($ms1,1.2);
 }
 
@@ -29,6 +28,10 @@
 
 .c-thin {
     font-weight: 100;
+}
+
+.c-medium {
+    font-weight: 600;
 }
 
 .c-strikethrough {

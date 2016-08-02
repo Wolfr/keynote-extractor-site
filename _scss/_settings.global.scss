@@ -38,13 +38,13 @@ $ms13                       : 100 !default;
 
 // Basic font settings
 
-$alpha-font-family          : 'Lato', sans-serif;
+$alpha-font-family          : "-apple-system", 'BlinkMacSystemFont', "Helvetica Neue", sans-serif;
 $beta-font-family           : $alpha-font-family;
 
 $alpha-font-size            : $ms0;
 
 $alpha-font-weight          : 400;
-$beta-font-weight           : 300;
+$beta-font-weight           : 600;
 $gamma-font-weight          : 100;
 
 $alpha-line-height          : 1.5;
