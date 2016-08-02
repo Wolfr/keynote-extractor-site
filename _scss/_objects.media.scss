@@ -43,7 +43,7 @@ $media-object-margin-bottom : $alpha-leading !default;
     justify-content: flex-end
 }
 
-    .o-media__img {
-        @include padding-lr(0,$media-object-gutter);
-        @include margin-bottom($media-object-margin-bottom);
-    }
+.o-media__img {
+    @include padding-lr(0,$media-object-gutter);
+    @include margin-bottom($media-object-margin-bottom);
+}

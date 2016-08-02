@@ -6,9 +6,6 @@ $val-sm: 100px;
 $val-md: 80px;
 $val-lg: 100vw;
 
-
-
-
 /**
  * Duration
  */
@@ -38,9 +35,6 @@ $val-lg: 100vw;
     }
   }
 }
-
-
-
 
 /**
  * Fade animations:
@@ -147,9 +141,6 @@ $val-lg: 100vw;
   transform: translate($val-sm, 0) scale(1.2);
 }
 
-
-
-
 /**
  * Slide animations
  */
@@ -177,9 +168,6 @@ $val-lg: 100vw;
 [data-aos='slide-left'] {
   transform: translateX(100%);
 }
-
-
-
 
 /**
  * Flip animations:
