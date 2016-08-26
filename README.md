@@ -1,4 +1,4 @@
-# [Keynote Extractor Website](http://keynote-extractor.com)
+# [HTML Extractor for Keynote Website](http://keynote-extractor.com)
 
 ## Hashi
 
