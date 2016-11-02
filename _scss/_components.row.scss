@@ -18,14 +18,14 @@
 }
 
 .c-row--alpha {
-    background: radial-gradient(ellipse at center,  #1c5f89 0%,#92b2c6 20%,#ffffff 70%);
+    background: radial-gradient(ellipse at center,  #1c5f89 0%,#92b2c6 20%,#fff 70%);
     background-size: 2400px 1200px;
     background-position: center calc(-50% - 1250px);
     background-repeat: no-repeat;
 }
 
 .c-row--beta {
-    background: radial-gradient(ellipse at center,  #1c5f89 0%,#92b2c6 20%,#ffffff 70%);
+    background: radial-gradient(ellipse at center,  #1c5f89 0%,#92b2c6 20%,#fff 70%);
     background-size: 1200px 1200px;
     background-position: center calc(50% + 700px);
     background-repeat: no-repeat;
@@ -33,4 +33,8 @@
 
 .c-row--gamma {
     background-color: palette(color-alpha,x-light);
+}
+
+.c-row--delta {
+    border-top: 1px solid palette(color-alpha,x-light);
 }

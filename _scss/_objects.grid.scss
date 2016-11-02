@@ -22,9 +22,7 @@ $grid-gutter    : $columns-gutter*2 !default;
     max-width: $grid-max-width;
 }
 
-.o-container-small {
-    margin-left: auto;
-    margin-right: auto;
+.o-container--small {
     max-width: map-get($breakpoints,bp3);
 }
 

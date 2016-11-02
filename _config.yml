@@ -13,10 +13,10 @@ gems:
   - octopress-autoprefixer
 
 # Site settings
-title: Keynote Extractor
+title: HTML Extractor for Keynote
 email: keynote-extractor@mono.company
 description: >
-  A better HTML export for Apple Keynote®
+  A better HTML export for Apple Keynote
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://keynote-extractor.com" # the base hostname & protocol for your site
 
