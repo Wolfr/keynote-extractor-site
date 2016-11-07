@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Keynote Extractor Updates</title>
+        <link>http://www.keynote-extractor.com/</link>
+        <description>Keynote Extractor updates</description>
+        <language>en</language>
+        <item>
+            <guid isPermaLink="false">29bfd01856caef2830f0f45a31b62361392b1a2c</guid>
+            <title>Version 1.0.4</title>
+            <pubDate>Mon, 7 Nov 2016 16:34:10</pubDate>
+            <sparkle:releaseNotesLink>
+                https://dejal.net/update/?prod=timeout&amp;using=2002a&amp;from=2024&amp;to=2020&amp;rel=gen&amp;ref=update&amp;op=sparkle
+            </sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+            <enclosure url="http://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0a4.zip" sparkle:version="2024" sparkle:shortVersionString="2.1" length="10033272" type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
