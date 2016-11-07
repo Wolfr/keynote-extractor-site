@@ -1,13 +1,14 @@
 .c-button {
     background: darken(#61A2EC, 30%);
-    &:hover,
-    &:active {
-        background: darken(#61A2EC, 10%);
-        transition: 0.18s background ease-in-out;
-        color: #FFF;
-    }
     padding: 0.6rem 0.8rem;
     color: #FFF;
     text-decoration: none;
     border-radius: 4px;
+    &:hover,
+    &:active,
+    &:focus {
+        background: darken(#61A2EC, 10%);
+        transition: 0.18s background ease-in-out;
+        color: #FFF;
+    }
 }
