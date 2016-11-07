@@ -10,10 +10,10 @@
             <title>Version 1.0.4</title>
             <pubDate>Mon, 7 Nov 2016 16:34:10</pubDate>
             <sparkle:releaseNotesLink>
-                https://dejal.net/update/?prod=timeout&amp;using=2002a&amp;from=2024&amp;to=2020&amp;rel=gen&amp;ref=update&amp;op=sparkle
+                http://www.keynote-extractor.com/releasenotes/index.html
             </sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
-            <enclosure url="http://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0a4.zip" sparkle:version="2024" sparkle:shortVersionString="2.1" length="10033272" type="application/octet-stream" />
+            <enclosure url="http://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0a4.zip" sparkle:version="2024" sparkle:shortVersionString="1.0.4a" length="10033272" type="application/octet-stream" />
         </item>
     </channel>
 </rss>
