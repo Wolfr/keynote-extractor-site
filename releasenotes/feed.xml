@@ -6,14 +6,17 @@
         <description>Keynote Extractor updates</description>
         <language>en</language>
         <item>
-            <guid isPermaLink="false">29bfd01856caef2830f0f45a31b62361392b1a2c</guid>
-            <title>Version 1.0.4</title>
-            <pubDate>Mon, 7 Nov 2016 16:34:10</pubDate>
-            <sparkle:releaseNotesLink>
-                http://www.keynote-extractor.com/releasenotes/index.html
-            </sparkle:releaseNotesLink>
+            <title>Version 1.0.0</title>
+            <description>
+                <![CDATA[
+                    <ul>
+                        <li>Initial release</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Tue, 8 Nov 2016 16:34:10</pubDate>
             <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
-            <enclosure url="http://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0a4.zip" sparkle:version="2024" sparkle:shortVersionString="1.0.4a" length="10033272" type="application/octet-stream" />
+            <enclosure url="http://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0.zip" sparkle:version="1.0.0" type="application/octet-stream" />
         </item>
     </channel>
 </rss>
