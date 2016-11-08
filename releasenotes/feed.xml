@@ -16,7 +16,7 @@
             </description>
             <pubDate>Tue, 8 Nov 2016 16:34:10</pubDate>
             <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
-            <enclosure url="http://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0.zip" sparkle:version="1.0.0" type="application/octet-stream" />
+            <enclosure url="http://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0.0.zip" sparkle:version="1.0.0" type="application/octet-stream" />
         </item>
     </channel>
 </rss>
