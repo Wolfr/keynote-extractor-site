@@ -6,6 +6,19 @@
         <description>Keynote Extractor updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.0.1</title>
+            <description>
+                <![CDATA[
+                    <ul>
+                        <li>Fixed a bug where we wouldn't use the system font properly</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Wed, 15 Feb 2017 13:34:00</pubDate>
+            <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+            <enclosure url="http://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0.1.zip" sparkle:version="1.0.1" type="application/octet-stream" />
+        </item>
+        <item>
             <title>Version 1.0.0</title>
             <description>
                 <![CDATA[
