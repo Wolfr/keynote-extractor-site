@@ -15,3 +15,9 @@ To install, run the following command:
 To run a jekyll server and compile SCSS and HTML, run the following command:
 
 `jekyll serve`
+
+### Build
+
+To build the HTML to deploy online, use
+
+`jekyll build`
