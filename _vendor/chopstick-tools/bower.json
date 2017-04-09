@@ -1,0 +1,28 @@
+{
+  "name": "chopstick-tools",
+  "description": "Chopstick tools layer",
+  "dependencies": {
+    "chopstick-settings": ">=0.7.4"
+  },
+  "keywords": [
+    "front-end",
+    "tools",
+    "css",
+    "scss",
+    "framework",
+    "ITCSS"
+  ],
+  "authors": [
+    ""
+  ],
+  "homepage": [
+    "http://getchopstick.com/"
+  ],
+  "licence": "MIT",
+  "ignore": [
+    ".git",
+    ".editorconfig",
+    ".npmignore",
+    "package.json"
+  ]
+}
