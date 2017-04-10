@@ -1,71 +1,61 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    
+    <title>Keynote Extractor</title>
 
-<header class="c-row c-row--padding c-row--alpha u-text-center">
-    <div class="o-container o-container--small">
-        <div class="c-brand-icon u-align-horizontal u-mb-gamma">
-            <span class="c-brand-icon__export-three" data-aos="zoom-in" data-aos-delay="500" data-aos-easing="ease-in-sine" data-aos-once="true"></span>
-            <span class="c-brand-icon__export-two" data-aos="zoom-in" data-aos-delay="400" data-aos-easing="ease-in-sine" data-aos-once="true"></span>
-            <span class="c-brand-icon__export-one" data-aos="zoom-in" data-aos-delay="300" data-aos-easing="ease-in-sine" data-aos-once="true"></span>
-            <span class="c-brand-icon__badge" data-aos="zoom-in-up" data-aos-delay="100" data-aos-easing="ease-in-out-back" data-aos-once="true"></span>
-        </div>
-        <div class="c-body">
-            <h1 class="c-brand-color u-mb-beta">Keynote Extractor</h1>
-            <p class="c-lead c-brand-color">A better HTML export for Apple Keynote<span class="c-superscript">®</span>.</p>
-            <p>We thought the default HTML export in Keynote didn't fit our needs. Extract your slides alongside your notes using our super easy drag 'n drop application for macOS.</p>
-            <p>
-                <a
-                    class="c-button"
-                    href="https://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0.2.zip"
-                    onclick="ga('send', 'event', 'actions', 'download', 'Keynote Extractor')">
-                    Download for Free
-                </a>
-            </p>
-        </div>
-    </div>
-</header>
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-<main>
+      ga('create', 'UA-86879004-1', 'auto');
+      ga('send', 'pageview');
 
-    <!-- Features -->
-    <section class="c-row c-row--padding c-row--gamma c-divider">
-        <div class="o-container">
-            <div class="o-grid o-grid--gutter">
-                <div class="o-grid__item u-1-of-2-bp4">
-                    <figure class="c-illustration">
-                        <img src="img/function.png" alt="mobile-first layout">
-                    </figure>
-                    <h2 class="c-brand-color">Clutter free.</h2>
-                    <p class="c-measure">
-                        No need to clutter your slides so people can make sense of them after the presentation. HTML Extractor for Keynote extracts your slides with their notes alongside. The result is a HTML and CSS package that you can upload to a web server to share your presentation online.
-                    </p>
-                </div>
-                <div class="o-grid__item u-1-of-2-bp4">
-                    <figure class="c-illustration">
-                        <img src="img/mobile.png" alt="mobile-first layout">
-                    </figure>
-                    <h2 class="c-brand-color">Made for mobile</h2>
-                    <p class="c-measure u-mb-gamma">
-                        The export prepares different sets of images so whenever your presentation is requested on a mobile device, only the small versions of the images are downloaded.
-                    </p>
-                    <p>
-                        <a href="https://mono.company/chameleon-society/">See an example</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+    </script>
+    
+</head>
+<body>
 
-</main>
+    <div class="container">
+        <header>
+            <img src="img/icon512.jpg" width="150">
+            <h1>Keynote Extractor</h1>
+            <p class="lead">A better HTML export option for Apple Keynote<span class="c-superscript">®</span>.</p>
+        </header>
 
-<footer class="c-row c-row--padding u-text-center">
-    <div class="o-container">
-        <p class="c-small u-mb-beta">Keynote Extractor is a <a href="https://mono.company">Mono</a> product. <br>Got feedback? Need support? E-mail <a href="mailto:keynote-extractor@mono.company">keynote-extractor@mono.company</a>.</p>
-        <p class="c-small u-mb-beta">Keynote and macOS are trademarks of Apple Inc., registered in the U.S. and other countries.</p>
-        <p class="c-small u-mb-beta">Website and icon design by <a href="http://dieterpeirs.com">Dieter</a>.</p>
-        <p class="u-mb-alpha">
-            <a href="https://mono.company/" class="c-brand-company u-align-horizontal">Mono</a>
+        <p>We thought the default HTML export in Keynote didn't fit our needs. Extract your slides alongside your notes using our super easy drag 'n drop application for macOS.</p>
+        
+        <p>Check out the video to see how it works:</p>
+        <iframe src="https://player.vimeo.com/video/177393374" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+        <p class="button-group">
+            <a
+                class="button button-primary" 
+                href="https://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0.2.zip"
+                onclick="ga('send', 'event', 'actions', 'download', 'Keynote Extractor')">
+                Download for Free
+            </a>
+            <a href="#" class="button button-secondary">
+                View an example presentation
+            </a>
         </p>
     </div>
-</footer>
+
+    <footer>
+        <p>Keynote and macOS are trademarks of Apple Inc.</p>
+        <p>Icon design by <a href="http://dieterpeirs.com">Dieter</a>.</p>
+        <p>
+            <a href="https://mono.company/">
+                <img src="img/mono@2x.png" width="103" alt="Mono">
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>

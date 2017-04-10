@@ -1,0 +1,46 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 640px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+.lead {
+    font-size: 140%;
+}
+
+a.button {
+    padding: 0.6rem 0.8rem;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.button:hover {
+    transition: 0.18s background ease-in-out;
+}
+
+a.button-primary {
+    background: #0D58A2;
+    color: #FFF;
+}
+
+a.button-secondary {
+    background: #F6F5F8;
+    color: #333;
+}
+
+a.button-primary:hover,
+a.button-primary:active,
+a.button-primary:focus {
+    background: #093b6c;
+    color: #FFF;
+}

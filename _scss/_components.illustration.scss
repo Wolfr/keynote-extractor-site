@@ -1,9 +1,0 @@
-.c-illustration {
-    display: block;
-    border-bottom: 1px solid darken(palette(color-alpha,x-light),10);
-    @include margin-bottom(2);
-
-    > img {
-        display: block;
-    }
-}
