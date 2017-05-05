@@ -1,7 +1,11 @@
 /* ==========================================================================
-  Base - Unclassed
+  CSS for Keynote Extractor site
+  Using bare CSS here, no SCSS or anything like that. KISS baby
    ========================================================================== */
 
+/* ==========================================================================
+  Base - Unclassed
+   ========================================================================== */
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -162,8 +166,8 @@ figcaption {
 /* Article 
    ========================================================================== */
 
-article header h2,
-article header p {
+.article header h2,
+.article header p {
   margin: 0;
   padding: 0;
 }
