@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen">
 
     <title>Keynote Extractor</title>
 
@@ -25,8 +25,8 @@
     <div class="container">
 
         <nav id="main-nav">
-            <a class="active" href="/index.html">Home</a>
-            <a href="/showcase/index.html">Showcase</a>
+            <a href="/index.html">Home</a>
+            <a class="active" href="/showcase/index.html">Showcase</a>
             <a href="/blog/index.html">Blog</a>
         </nav>
 
@@ -34,28 +34,24 @@
             <a href="/"><img src="/img/ke.png" width="150"></a>
         </div>
 
-        <header id="home-header" class="u-align-center">
-            <h1>Keynote Extractor</h1>
-            <p class="lead">A better HTML export option for Apple Keynote<span class="c-superscript">®</span>.</p>
-        </header>
-        
-        <div id="screen-container">
-            <img src="img/screen.png" alt="Screen" width="458">
+        <div class="page-header">
+            <h2>Showcase</h2>
+            <p>Showing off online presentations that made use of Keynote Extractor.</p>
         </div>
 
-        <article class="u-align-center">
-            <p>Extract your slides and notes to an easily modifiable HTML file, using this super easy drag 'n drop application for macOS.</p>
-            <p class="button-group">
-                <a
-                    class="button button-primary" 
-                    href="https://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0.2.zip"
-                    onclick="ga('send', 'event', 'actions', 'download', 'Keynote Extractor')">
-                    Download for Free
-                </a>
-            </p>
-        </article>
+        
+        <ul class="presentation-list">
+            <li>
+                <p><a href="#">Title of slideshow</a></p>
+                <p>By Dries De Roeck</p>
+            </li>
+            <li>
+                <p><a href="https://mono.company/effective-ui-design-html-prototyping-frontend-united/">Effective User Interface Design with HTML Prototyping - Frontend United</a></p>
+                <p>By Johan Ronsse</p>
+            </li>
+        </ul>
 
-        <footer class="home u-align-center">
+        <footer class="u-align-center">
             <p>©Keynote Extractor 2017. Keynote and macOS are trademarks of Apple Inc. Icon design by <a href="http://dieterpeirs.com">Dieter</a>.</p>
         </footer>
 

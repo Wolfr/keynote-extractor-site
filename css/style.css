@@ -201,6 +201,16 @@ a.button-primary:focus {
   color: #FFF;
 }
 
+/* Presentation list 
+   ========================================================================== */
+
+.presentation-list li {
+  margin-bottom: 0.5em;
+}
+
+.presentation-list p {
+  margin: 0;
+}
 
 /* Utilities 
    ========================================================================== */
