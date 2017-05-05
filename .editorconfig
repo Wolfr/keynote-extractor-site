@@ -23,12 +23,12 @@ indent_size = 4
 [*.css]
 # Indentation style
 indent_style = space
-indent_size = 4
+indent_size = 2
 
 [*.scss]
 # Indentation style
 indent_style = space
-indent_size = 4
+indent_size = 2
 
 [*.js]
 # Indentation style

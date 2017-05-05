@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-    
+
     <title>Keynote Extractor</title>
 
     <script type="text/javascript">
@@ -23,37 +23,39 @@
 <body>
 
     <div class="container">
-        <header>
-            <img src="img/icon512.jpg" width="150">
+
+        <nav id="main-nav">
+            <a class="active" href="/index.html">Home</a>
+            <a href="/blog/index.html">Blog</a>
+        </nav>
+
+        <div id="app-icon" class="u-align-center">
+            <a href="/"><img src="/img/ke.png" width="150"></a>
+        </div>
+
+        <header id="home-header" class="u-align-center">
             <h1>Keynote Extractor</h1>
             <p class="lead">A better HTML export option for Apple Keynote<span class="c-superscript">®</span>.</p>
         </header>
-
-        <p>We thought the default HTML export in Keynote didn't fit our needs. Extract your slides alongside your notes using our super easy drag 'n drop application for macOS.</p>
         
-        <p>Check out the video to see how it works:</p>
-        <iframe src="https://player.vimeo.com/video/177393374" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div id="screen-container">
+            <img src="img/screen.png" alt="Screen" width="458">
+        </div>
 
-        <p class="button-group">
-            <a
-                class="button button-primary" 
-                href="https://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0.2.zip"
-                onclick="ga('send', 'event', 'actions', 'download', 'Keynote Extractor')">
-                Download for Free
-            </a>
-            <a href="#" class="button button-secondary">
-                View an example presentation
-            </a>
-        </p>
-        
-        <footer>
-            <p>Keynote and macOS are trademarks of Apple Inc.</p>
-            <p>Icon design by <a href="http://dieterpeirs.com">Dieter</a>.</p>
-            <p>
-                <a href="https://mono.company/">
-                    <img src="img/mono@2x.png" width="103" alt="Mono">
+        <article class="u-align-center">
+            <p>Extract your slides and notes to an easily modifiable HTML file, using this super easy drag 'n drop application for macOS.</p>
+            <p class="button-group">
+                <a
+                    class="button button-primary" 
+                    href="https://keynote-extractor.com/downloads/Keynote%20Extractor.app.1.0.2.zip"
+                    onclick="ga('send', 'event', 'actions', 'download', 'Keynote Extractor')">
+                    Download for Free
                 </a>
             </p>
+        </article>
+
+        <footer class="home u-align-center">
+            <p>©Keynote Extractor 2017. Keynote and macOS are trademarks of Apple Inc. Icon design by <a href="http://dieterpeirs.com">Dieter</a>.</p>
         </footer>
 
     </div>

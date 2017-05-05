@@ -1,46 +1,210 @@
+/* ==========================================================================
+  Base - Unclassed
+   ========================================================================== */
+
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+  background: #FFF;
+  color: #333;
 }
 
-.container {
-    max-width: 640px;
-    padding: 20px;
-    margin: 0 auto;
+hr {
+  background: none;
+  margin: 2em 0;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #CCC;
 }
 
-header, footer {
-    text-align: center;
+footer {
+  border-top: 1px solid #CCC;
+  padding: 4em 0 0;
+  margin: 4em 0;
+  color: #999;
+  font-size: 11px;
 }
+
+footer.home {
+  padding: 0;
+  margin: 4em 0;
+  border: none;
+}
+
+footer a {
+  color: #999;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: #000;
+  font-weight: 500;
+}
+
+a {
+  color: #0D58A2;
+}
+
+a {
+  color: purple;
+}
+
+img {
+  max-width: 100%;
+}
+
+figcaption {
+  font-size: 90%;
+  color: #666;
+}
+
+/* ==========================================================================
+  Semantic classes 
+  These are the one timers
+   ========================================================================== */
+
+#home-header {
+  margin: 0 0 2em;
+}
+
+#main-nav {
+  text-align: center;
+  padding: 0 0 1em;
+  border-bottom: 1px solid #CCC;
+}
+
+#main-nav a {
+  color: #000;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+#main-nav a.active {
+  background: #F0F0F0;
+  border-radius: 5px;
+}
+
+/* Blog sneak peek 
+   ========================================================================== */
+
+#blog-sneak-peek {
+  background: #F0F0F0;
+  border-radius: 5px;
+  color: #999;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 13px;
+}
+
+#blog-sneak-peek a {
+  color: #666;
+}
+
+/* Screen container (home page)
+   ========================================================================== */
+
+#screen-container {
+  border-radius: 5px;
+  background: linear-gradient(#47a3de, #0079c5 );
+  position: relative;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+#screen-container img{
+  display: block;
+  margin: 30px auto 0;
+  max-width: 100%;
+}
+
+/* App icon
+   ========================================================================== */
+
+#app-icon {
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+#app-icon img {
+  max-width: 110px;
+}
+
+/* ==========================================================================
+  Typographic styling 
+   ========================================================================== */
 
 .lead {
-    font-size: 140%;
+  margin: 0;
+  font-size: 140%;
+  color: #999;
+}
+
+.date {
+  color: #999;
+}
+
+/* ==========================================================================
+  Layout objects
+   ========================================================================== */
+
+/* Container
+   ========================================================================== */
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Article 
+   ========================================================================== */
+
+article header h2,
+article header p {
+  margin: 0;
+  padding: 0;
+}
+
+.article-content p:first-child {
+  margin-top: 1em;
+  padding-top: 0;
 }
 
 a.button {
-    padding: 0.6rem 0.8rem;
-    border-radius: 4px;
-    text-decoration: none;
-    display: inline-block;
+  padding: 0.6rem 0.8rem;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 a.button:hover {
-    transition: 0.18s background ease-in-out;
+  transition: 0.18s background ease-in-out;
 }
 
 a.button-primary {
-    background: #0D58A2;
-    color: #FFF;
+  background: #0D58A2;
+  color: #FFF;
 }
 
 a.button-secondary {
-    background: #F6F5F8;
-    color: #333;
+  background: #F6F5F8;
+  color: #333;
 }
 
 a.button-primary:hover,
 a.button-primary:active,
 a.button-primary:focus {
-    background: #093b6c;
-    color: #FFF;
+  background: #093B6C;
+  color: #FFF;
+}
+
+
+/* Utilities 
+   ========================================================================== */
+
+.u-align-center {
+  text-align: center;
 }

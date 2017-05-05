@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen">
+
+    <title>Blog - Keynote Extractor</title>
+
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-86879004-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+</head>
+<body>
+
+    <div class="container">
+
+        <nav id="main-nav">
+            <a href="/index.html">Home</a>
+            <a class="active" href="/blog/index.html">Blog</a>
+        </nav>
+
+        <div id="app-icon" class="u-align-center">
+            <a href="/"><img src="/img/ke.png" width="150"></a>
+        </div>
+
+        <article>
+            <header>
+                <h2>A workflow for self-hosting your slides</h2>
+                <p class="date">May 5th 2017</p>
+            </header>
+            <div class="article-content">
+                <p>So, you want to put your Keynote slides online? This tutorial will show you how to do it.</p>
+                <p>If you already have your own web space, things are simple: you just upload the folder that you get when you extract your slides to your web server. Tada - your slides are online!</p>
+                <p>But what if you don't have webspace? Your own domain? Then you need to go ahead and find a solution.</p>
+                <p>There's tons of different ways to do this. In this tutorial I will explain how I would do it in different cases.</p>
+                <h3>I am technically inclined and don't want to spend money. I don't care so much about the domain name.</h3>
+                <ol>
+                    <li>Put the index.html and the images in an open source repository on a free <a href="htt://github.com">Github</a> account.</li>
+                    <li>Activate Jekyll pages for that repository within the settings.</li>
+                    <li>Done! Here's an <a href="https://wolfr.github.io/ke-gh-pages-test/">example</a>.</li>
+                </ol>
+                <h3>I want a custom domain name.</h3>
+                <p>I use <a href="https://dnsimple.com/">dnsimple</a> to register domain names. Within dnsimple you can tie your domain name to your web space.</p>
+                <h3>I want some web space.</h3>
+                <p>I use <a href="https://webfaction.com">WebFaction</a> to register domain names. For me it's perfect, but they don't provide much in the way of "help". If this is your first time putting anything online, I would recommend another service instead.</p>
+            </div>
+        </article>
+
+        <div id="blog-sneak-peek">
+            <p>This is just the beginning of the Keynote Extractor blog. <a href="/blog/future.html">View a sneak peek at upcoming content.</a></p>
+        </div>
+
+        <footer class="u-align-center">
+            <p>©Keynote Extractor 2017. Keynote and macOS are trademarks of Apple Inc. Icon design by <a href="http://dieterpeirs.com">Dieter</a>.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
