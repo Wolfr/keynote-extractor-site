@@ -1,7 +1,11 @@
 /* ==========================================================================
-  Base - Unclassed
+  CSS for Keynote Extractor site
+  Using bare CSS here, no SCSS or anything like that. KISS baby
    ========================================================================== */
 
+/* ==========================================================================
+  Base - Unclassed
+   ========================================================================== */
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -162,8 +166,8 @@ figcaption {
 /* Article 
    ========================================================================== */
 
-article header h2,
-article header p {
+.article header h2,
+.article header p {
   margin: 0;
   padding: 0;
 }
@@ -172,6 +176,9 @@ article header p {
   margin-top: 1em;
   padding-top: 0;
 }
+
+/* Buttons 
+   ========================================================================== */
 
 a.button {
   padding: 0.6rem 0.8rem;
@@ -201,6 +208,16 @@ a.button-primary:focus {
   color: #FFF;
 }
 
+/* Presentation list 
+   ========================================================================== */
+
+.presentation-list li {
+  margin-bottom: 0.5em;
+}
+
+.presentation-list p {
+  margin: 0;
+}
 
 /* Utilities 
    ========================================================================== */
