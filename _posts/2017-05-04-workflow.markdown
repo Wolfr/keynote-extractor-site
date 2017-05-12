@@ -4,4 +4,19 @@ title:  "A workflow for self-hosting your slides"
 date:   2017-05-10 16:39:18 +0200
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p>So, you want to put your Keynote slides online? This blog post will show you how to do it.</p>
+<p>If you already have your own web space, things are simple: you just upload the folder that you get when you extract your slides to your web server. Tada - your slides are online!</p>
+<p>But what if you don't have webspace? Your own domain? Then you need to go ahead and find a solution.</p>
+<p>There's tons of different ways to do this. In this tutorial I will explain how I would do it in different cases.</p>
+<h3>I am technically inclined and don't want to spend money. I don't care so much about the domain name.</h3>
+<ol>
+    <li>Put the index.html and the images in an open source repository on a free <a href="htt://github.com">Github</a> account.</li>
+    <li>Activate Jekyll pages for that repository within the settings.</li>
+    <li>Done! Here's an <a href="https://wolfr.github.io/ke-gh-pages-test/">example</a>.</li>
+</ol>
+<h3>I want a custom domain name.</h3>
+<p>I use <a href="https://dnsimple.com/">dnsimple</a> to register domain names. Within dnsimple you can tie your domain name to your web space. There are tons of domain registrars out there - this is just one of them.</p>
+<h3>I want some web space.</h3>
+<p>I use <a href="https://webfaction.com">WebFaction</a> to register web space. Within webfaction you can create different 'apps'. These apps can be static websites but they can also run PHP etc. For me WebFaction is perfect, but they don't provide much in the way of "help" for beginners. If this is your first time putting anything online, I would recommend another service instead.</p>
+<h3>My situation isn't listed here</h3>
+<p>Need help putting your slides online? E-mail <a href="mailto:keynote-extractor@mono.company">keynote-extractor@mono.company</a> and we will try to help you out.</p>
