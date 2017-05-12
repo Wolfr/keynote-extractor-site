@@ -1,0 +1,23 @@
+---
+layout: page
+title: Blog
+---
+
+<div class="article-list">
+    {% for post in site.posts %}
+
+        <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+            <header>
+                <h2 itemprop="name headline"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <p class="date">
+                    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+                </p>
+            </header>
+            <div class="article-content" itemprop="articleBody">
+                {{ post.content }}
+            </div>
+        </article>
+
+
+    {% endfor %}
+</div>

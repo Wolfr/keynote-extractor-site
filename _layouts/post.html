@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+        <h2 itemprop="name headline">{{ page.title }}</h2>
+        <p class="date">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        </p>
+    </header>
+    <div class="article-content" itemprop="articleBody">
+        {{ content }}
+    </div>
+</article>
