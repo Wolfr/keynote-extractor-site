@@ -4,7 +4,9 @@
 <body>
     <div class="container">
         {% include nav.html %}
-        {% include app-icon.html %}
+        {% unless page.hideicon %}
+            {% include app-icon.html %}
+        {% endunless %}
         {{ content }}
         {% include footer.html %}
     </div>

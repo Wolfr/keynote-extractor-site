@@ -76,6 +76,7 @@ a {
 
 img, video {
   max-width: 100%;
+  height: auto;
 }
 
 figcaption {
@@ -83,13 +84,8 @@ figcaption {
   color: #666;
 }
 
-/* ==========================================================================
-  Semantic classes 
-  These are the one timers
-   ========================================================================== */
-
 #home-header {
-  margin: 0 0 2rem;
+  margin: 2rem 0;
 }
 
 #main-nav {
@@ -135,7 +131,7 @@ figcaption {
 
 #app-icon {
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 4rem 0 0;
 }
 
 #app-icon img {
@@ -288,4 +284,35 @@ pre {
 
 .message a {
   color: #666;
+}
+
+/*
+  Component: table
+  ---
+  A data table
+*/
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td, .table th {
+  padding: 1rem;
+  border-bottom: 1px solid #DDD;
+}
+
+.table th {
+  text-align: left;
+  border-bottom-width: 2px;
+}
+
+.table tbody tr:last-child td,
+.table tbody tr:last-child th {
+  border: none;
+}
+
+
+.page-header {
+  margin: 4rem 0;
 }
