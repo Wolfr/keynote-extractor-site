@@ -7,16 +7,29 @@
   Base - Unclassed
    ========================================================================== */
 
+html {
+  font-size: 55.5%;
+}
+
+@media (min-width: 800px) {
+ 
+  html {
+    font-size: 62.5%;
+  }
+ 
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.5;
   background: #FFF;
   color: #333;
+  font-size: 1.6rem;
 }
 
 hr {
   background: none;
-  margin: 2em 0;
+  margin: 2rem 0;
   padding: 0;
   border: none;
   border-bottom: 1px solid #CCC;
@@ -24,14 +37,14 @@ hr {
 
 footer {
   border-top: 1px solid #CCC;
-  padding: 4em 0 0;
-  margin: 4em 0;
+  padding: 4rem 0 0;
+  margin: 4rem 0;
   color: #999;
   font-size: 11px;
 }
 
 footer img {
-  width: 16px;
+  width: 1.6rem;
   position: relative;
   top: 3px;
   opacity: 0.45;
@@ -61,7 +74,7 @@ a {
   color: purple;
 }
 
-img {
+img, video {
   max-width: 100%;
 }
 
@@ -76,19 +89,19 @@ figcaption {
    ========================================================================== */
 
 #home-header {
-  margin: 0 0 2em;
+  margin: 0 0 2rem;
 }
 
 #main-nav {
   text-align: center;
-  padding: 0 0 1em;
+  padding: 0 0 1rem;
   border-bottom: 1px solid #CCC;
 }
 
 #main-nav a {
   color: #000;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 0.5rem 1rem;
   display: inline-block;
 }
 
@@ -97,55 +110,41 @@ figcaption {
   border-radius: 5px;
 }
 
-/* Blog sneak peek 
-   ========================================================================== */
-
-#blog-sneak-peek {
-  background: #F0F0F0;
-  border-radius: 5px;
-  color: #999;
-  text-align: center;
-  padding: 10px 30px;
-  font-size: 13px;
-}
-
-#blog-sneak-peek a {
-  color: #666;
-}
-
-/* Screen container (home page)
-   ========================================================================== */
+/*
+  Screen container (home page)
+*/
 
 #screen-container {
   border-radius: 5px;
   background: linear-gradient(#47a3de, #0079c5 );
   position: relative;
-  max-width: 600px;
+  max-width: 60rem;
   display: flex;
   align-items: center;
 }
 
 #screen-container img{
   display: block;
-  margin: 30px auto 0;
+  margin: 3rem auto 0;
   max-width: 100%;
 }
 
-/* App icon
-   ========================================================================== */
+/*
+  App icon
+*/
 
 #app-icon {
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 3rem 0;
 }
 
 #app-icon img {
-  max-width: 110px;
+  max-width: 11rem;
 }
 
-/* ==========================================================================
+/*
   Typographic styling 
-   ========================================================================== */
+*/
 
 .lead {
   margin: 0;
@@ -157,21 +156,23 @@ figcaption {
   color: #999;
 }
 
-/* ==========================================================================
+/*
   Layout objects
-   ========================================================================== */
+*/
 
-/* Container
-   ========================================================================== */
+/*
+  Container
+*/
 
 .container {
-  max-width: 600px;
-  padding: 20px;
+  max-width: 60rem;
+  padding: 2rem;
   margin: 0 auto;
 }
 
-/* Article 
-   ========================================================================== */
+/*
+  Article
+*/
 
 .article header h2,
 .article header p {
@@ -180,20 +181,21 @@ figcaption {
 }
 
 .article-content p:first-child {
-  margin-top: 1em;
+  margin-top: 1rem;
   padding-top: 0;
 }
 
-/* Article list
-   ========================================================================== */
+/*
+  Article list
+*/
 
 .article-list .article {
-    margin: 0 0 4em;
+    margin: 0 0 4rem;
 }
 
-
-/* Buttons 
-   ========================================================================== */
+/*
+  Buttons
+*/
 
 a.button {
   padding: 0.6rem 0.8rem;
@@ -223,20 +225,67 @@ a.button-primary:focus {
   color: #FFF;
 }
 
-/* Presentation list 
-   ========================================================================== */
+/*
+  Presentation list 
+*/
 
 .presentation-list li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
 }
 
 .presentation-list p {
   margin: 0;
 }
 
-/* Utilities 
-   ========================================================================== */
+/*
+  Utilities 
+*/
 
 .u-align-center {
   text-align: center;
+}
+
+/*
+  Video
+*/
+
+.video-wrapper {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video-wrapper iframe {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+video {
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+  border: 3px solid #FFF;
+}
+
+pre {
+  background: #F1F5FA;
+}
+
+/*
+  Message
+*/
+
+.message {
+  background: #F0F0F0;
+  border-radius: 5px;
+  color: #999;
+  text-align: center;
+  padding: 1rem 3rem;
+  font-size: 13px;
+  margin: 1rem 0;
+}
+
+.message a {
+  color: #666;
 }

@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Why Keynote Extractor?"
+date:   2017-06-03 10:29:18 +0200
+---
+
+Why is there a need for a tool like <a href="https://keynote-extractor.com">Keynote Extractor</a>? Why am I spending time and money building this?
+
+The reason is simple: presentation sharing on the web still sucks.
+
+If you look at slides on Slideshare, they are missing context.
+
+Take this slide. It says "users expect apps from the same companies to be similar". The author likely gave some explanations, but this is all you can gather from the Slideshare.
+
+<img src="/img/typical-slide.png">
+
+If you look at presentation videos, they are often - very - long and impossible to skim.
+
+Even if the talk is great, it's hard to know what it's about without sitting down and listening for at least 10 minutes.
+
+<div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/fThhbt23SGM" frameborder="0" allowfullscreen></iframe>
+</div>
+
+What if there was a better way? What if you could share your presentation in a nice web page that everyone can just scroll through. Where someone can choose whether they want to read the whole thing or skim through it.
+
+Well, there is a good format. It's simple: just put the slides next to the text.
+
+Maciej Cegłowski's talks are a good example:
+
+<img src="/img/maciej.png">
+
+Now, Maciej crafts these things by hand and that is just bothersome. Not everyone knows HTML and CSS either.
+
+With Keynote Extractor you can easily generate web pages that look like the above example from your Keynote files. Just make sure you entered what you are talking about in the notes fields in Keynote and you're good to go. Check out the <a href="/showcase">showcase</a> for examples.
