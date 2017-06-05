@@ -225,7 +225,15 @@ a.button-primary:focus {
   Presentation list 
 */
 
+.presentation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .presentation-list li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #DDD;
   margin-bottom: 0.5rem;
 }
 
@@ -315,4 +323,13 @@ pre {
 
 .page-header {
   margin: 4rem 0;
+}
+
+.tags span {
+  font-size: 12px;
+  background: #EEE;
+  padding: 5px 10px;
+  margin: 0.1rem;
+  display: inline-block;
+  border-radius: 18px;
 }
