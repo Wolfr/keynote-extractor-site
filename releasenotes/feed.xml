@@ -10,7 +10,7 @@
             <description>
                 <![CDATA[
                     <ul>
-                        <li><strong>Different export types:</strong>: choose between two types of exports: a scrolling web page or a slideshow with keyboard shortcuts</li>
+                        <li><strong>Different export types</strong>: choose between two types of exports: a scrolling web page or a slideshow with keyboard shortcuts</li>
                         <li><strong>Choose your theme</strong>: dark grey, black or white</li>
                         <li><strong>JSON Export</strong>: Export your slide content as JSON and get creative with the slides output yourself</li>
                         <li><strong>Responsive images</strong>: export your slides with different image formats so your audience can view your presentation without wasting unnecessary bandwidth</li>
