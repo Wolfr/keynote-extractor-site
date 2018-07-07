@@ -333,3 +333,10 @@ pre {
   display: inline-block;
   border-radius: 18px;
 }
+
+/* Text styles 
+   ========================================================================== */
+
+.warning {
+  color: #B33535;
+}
